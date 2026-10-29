@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "defaultMode": "dontAsk",
+    "allow": [
+      "Read", "Write", "Edit", "Glob", "Grep",
+      "Bash(cd *)", "Bash(mkdir *)", "Bash(cp *)", "Bash(diff *)", "Bash(echo *)",
+      "Bash(python *)", "Bash(python3 *)", "Bash(py *)", "Bash(pytest *)", "Bash(pip install *)",
+      "Bash(node *)", "Bash(npm install*)", "Bash(npm ci*)", "Bash(npm test*)", "Bash(npm run *)",
+      "Bash(npx tsc *)", "Bash(npx jest *)", "Bash(npx vitest *)", "Bash(tsc *)",
+      "Bash(javac *)", "Bash(java *)", "Bash(mvn *)", "Bash(gradle *)", "Bash(kotlinc *)", "Bash(kotlin *)",
+      "Bash(gcc *)", "Bash(g++ *)", "Bash(clang *)", "Bash(clang++ *)", "Bash(make)", "Bash(make *)", "Bash(cmake *)",
+      "Bash(dotnet *)", "Bash(go *)", "Bash(rustc *)", "Bash(cargo *)", "Bash(ruby *)", "Bash(php *)",
+      "Bash(sqlite3 *)", "Bash(./*)", "Bash(build/*)"
+    ],
+    "deny": [
+      "WebFetch", "WebSearch",
+      "Bash(curl *)", "Bash(wget *)", "Bash(git *)", "Bash(gh *)", "Bash(ssh *)", "Bash(scp *)",
+      "Bash(rm *)", "Bash(del *)", "Bash(powershell *)", "Bash(pwsh *)", "Bash(cmd *)",
+      "Read(~/.ssh/**)", "Read(~/.aws/**)", "Read(~/.git-credentials)", "Read(~/.claude/**)", "Read(~/.claude.json)"
+    ]
+  }
+}

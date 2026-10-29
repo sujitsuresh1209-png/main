@@ -1,0 +1,16 @@
+{
+  "RemoteUrl": "https://github.com/sujitsuresh1209-png/main.git",
+  "Branch": "main",
+  "PollSeconds": 30,
+  "AnswersDir": "answers",
+  "IgnoredPaths": ["answers/", "scripts/", ".gitignore", ".gitattributes"],
+  "ClaudePath": "",
+  "ClaudeModel": "",
+  "ClaudeTimeoutMinutes": 45,
+  "AllowCodeExecution": true,
+  "MaxAttempts": 12,
+  "UsageLimitRetryMinutes": 30,
+  "GitUserName": "",
+  "GitUserEmail": "",
+  "KeepLogDays": 30
+}
